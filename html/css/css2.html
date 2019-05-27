@@ -4,28 +4,15 @@
 		<meta charset="UTF-8"/>
 		<title></title>
 		<style>
-			input:checked+span{background:blue;}
-			input:checked+span::after{content:"	我被选中了";}
+			div{ width:200px;height:200px;}
+			.d1{background:red;float:left;}
+			.d2{background:blue;float:left;}
+			.d3{width:500px;height:500px;}
 		</style>
 	</head>
 	<body>
-	<form method="post" action="#">
-		<fieldset>
-			<legend>选中下面的项试试</legend>
-			<ul>
-				<li><label><input type="radio" name="colour-group" value="0" /><span>蓝色</span></label></li>
-				<li><label><input type="radio" name="colour-group" value="1" /><span>红色</span></label></li>
-				<li><label><input type="radio" name="colour-group" value="2" /><span>黄色</span></label></li>
-			</ul>
-		</fieldset>
-		<fieldset>
-			<legend>选中下面的项试试</legend>
-			<ul>
-				<li><label><input type="checkbox" name="colour-group" value="0" /><span>蓝色</span></label></li>
-				<li><label><input type="checkbox" name="colour-group" value="1" /><span>红色</span></label></li>
-				<li><label><input type="checkbox" name="colour-group" value="2" /><span>黄色</span></label></li>
-			</ul>
-		</fieldset>
-	</form>
+		<div class="d1"></div>
+		<div class="d2"></div>
+		<div class="d3"></div>
 	</body>
 </html>
